@@ -10,3 +10,10 @@
   align-items: center;
   color: black;
 }
+
+@media only screen and (max-width: 800px) {
+  .card {
+    width: 50px;
+    height: 100px;
+  }
+}

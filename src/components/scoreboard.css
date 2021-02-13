@@ -5,3 +5,11 @@
   background-color: black;
   color: white;
 }
+
+@media only screen and (max-width: 800px) {
+  .scoreboard {
+    font-size: .75rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}

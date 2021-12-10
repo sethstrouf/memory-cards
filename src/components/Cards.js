@@ -6,7 +6,6 @@ import './cards.css'
 const Cards = () => {
   const [currentScore, setCurrentScore] = useState(0);
   const [highScore, setHighScore] = useState(0);
-  // const [selectedCard, setSelectedCard] = useState();
   let [chosenCards, setChosenCards] = useState([]);
 
   const handleClick = (e) => {
